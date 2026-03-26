@@ -1,0 +1,5 @@
+N = int(input())
+nums = list(map(int, input().split()))
+no_dublicate_nums = set(nums)
+no_dublicate_nums = sum(no_dublicate_nums) * 2 - sum(nums)
+print(no_dublicate_nums)
